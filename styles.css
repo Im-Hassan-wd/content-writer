@@ -12,7 +12,7 @@ body {
   background: #fafafa;
 }
 
-header {
+header, .container {
   margin: 10px auto;
   max-width: 1200px;
   padding: 0 30px;
@@ -46,7 +46,25 @@ nav a {
   align-items: center;
   justify-content: flex-end;
   margin-top: 20px;
+  list-style: none;
 }
-.social a {
-  padding: 0 20px;
+
+.social li {
+  margin-left: 15px;
+}
+
+.social img {
+  width: 20px;
+}
+
+.social button{
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+  padding: 3px;
+  cursor: pointer;
 }
