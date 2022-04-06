@@ -87,8 +87,15 @@ nav a:hover {
 }
 
 /* article section */
+.articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin: 50px auto;
+  justify-content: center;
+}
+
 .article {
-  max-width: 270px;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
   padding: 15px;
   border-radius: 20px;
