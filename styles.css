@@ -105,6 +105,9 @@ nav a:hover {
 .article-title {
   font-weight: 400;
   margin: 5px 0;
+  color: #222;
+  font-weight: 700;
+  font-size: 1.3rem;
 }
 
 .article-snippet {
