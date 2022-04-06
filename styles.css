@@ -115,12 +115,7 @@ nav a:hover {
   font-weight: bold;
 }
 
-.thumbnail {
-  margin: 0 auto;
-  max-width: 250px;
-}
-
-.thumbnail img {
+.article img {
   border-radius: 20px;
   width: 100%;
 }
