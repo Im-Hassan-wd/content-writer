@@ -64,7 +64,38 @@ nav a {
   justify-content: center;
   align-items: center;
   border: none;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
   padding: 3px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+
+/* article section */
+.article {
+  max-width: 270px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.article-title {
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+.article-snippet {
+  margin-bottom: 5px;
+}
+
+.article-category span {
+  font-weight: bold;
+}
+
+.thumbnail {
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+.thumbnail img {
+  border-radius: 20px;
+  width: 100%;
 }
