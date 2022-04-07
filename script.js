@@ -2,6 +2,7 @@ const copyContainer = document.querySelector('.copy-container');
 const copy = document.querySelector('.link');
 // event listerners
 copy.addEventListener('click', () => copyText());
+copyContainer.addEventListener('transitionend', removeContainer);
 
 // functions 
 function copyText(){
@@ -13,4 +14,8 @@ function copyText(){
   document.body.removeChild(el);
   // popup animation
   copyContainer.classList.add('active');
+}
+
+function removeContainer(){
+  copyContainer.classList.remove('active');
 }
