@@ -16,6 +16,7 @@ header, .container {
   margin: 20px auto;
   max-width: 1200px;
   padding: 0 30px;
+  position: relative;
 }
 
 nav {
@@ -91,6 +92,28 @@ nav a:hover {
   padding: 3px;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+
+.copy-container {
+  position: absolute;
+  right: 20px;
+  transition: 0.4s ease;
+  transform: translateY(-5px);
+  /* opacity: 0; */
+  pointer-events: none;
+}
+
+.copy-container.active {
+  transition: 0.4s ease;
+  transform: translateY(0px);
+  opacity: 1;
+  pointer-events: all;
+}
+
+.copy-text {
+  margin: 5px 0;
+  background: none;
+  border: none;
 }
 
 /* article section */
