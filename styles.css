@@ -13,7 +13,7 @@ body {
 }
 
 header, .container {
-  margin: 10px auto;
+  margin: 20px auto;
   max-width: 1200px;
   padding: 0 30px;
 }
@@ -33,7 +33,9 @@ nav li {
 }
 
 nav .logo {
-  font-size: 2rem;
+  font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
 }
 
 nav a {
@@ -127,6 +129,14 @@ nav a:hover {
 footer {
   margin: 50px 0 10px 0;
   text-align: center;
+}
+
+  /* media queries */
+@media (max-width: 620px) {
+  .thumbnail {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 @media (max-width: 620px) {
