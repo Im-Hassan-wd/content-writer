@@ -1,8 +1,12 @@
 const copyContainer = document.querySelector('.copy-container');
 const copy = document.querySelector('.link');
+const nav = document.querySelector('nav ul');
+const hamburger = document.querySelector('.hamburger');
+
 // event listerners
 copy.addEventListener('click', () => copyText());
 copyContainer.addEventListener('transitionend', removeContainer);
+hamburger.addEventListener('click', toggleNav)
 
 // functions 
 function copyText(){
@@ -18,4 +22,8 @@ function copyText(){
 
 function removeContainer(){
   copyContainer.classList.remove('active');
+}
+
+function toggleNav() {
+  nav.classList.toggle('active');
 }
