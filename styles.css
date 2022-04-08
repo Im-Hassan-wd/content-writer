@@ -96,13 +96,17 @@ nav a:hover {
 }
 .hamburger {
   display: none;
+  padding: 3px;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .line {
   width: 20px;
   height: 2px;
   margin: 4px 0;
-  background: #222;
+  background: #fdba69;
 }
 
 .line:nth-child(2) {
@@ -189,7 +193,28 @@ footer {
     display: block;
   }
   nav ul {
-    display: none;
+    position: fixed;
+    margin-top: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #fafafa;
+    z-index: 1;
+    width: 100%;
+    padding: 20px 10px;
+    height: 0;
+    overflow: hidden;
+  }
+  nav li {
+    margin-top: 5px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid rgb(164, 164, 164);
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+  }
+  nav ul.active, nav li.active {
+    height: initial;
+    overflow: none;
   }
 }
 
