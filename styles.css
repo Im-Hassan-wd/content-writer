@@ -141,6 +141,7 @@ nav a:hover {
   font-weight: 700;
   font-size: 1.3rem;
   display: block;
+  letter-spacing: 1px;
 }
 
 .article-snippet {
@@ -150,6 +151,7 @@ nav a:hover {
 
 .article-category span {
   font-weight: bold;
+  color: #d19b5a;
 }
 
 .article img {
