@@ -206,6 +206,7 @@ footer {
     height: 0;
     overflow: hidden;
     background: #222; */
+    display: none;
   }
   nav li {
     /* margin-top: 5px 0;
