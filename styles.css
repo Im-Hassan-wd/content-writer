@@ -170,6 +170,8 @@ section > .intro {
 
 .intro p {
   max-width: 450px;
+  letter-spacing: 1.2px;
+  line-height: 18px;
 }
 
 
