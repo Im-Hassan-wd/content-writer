@@ -164,7 +164,7 @@ section > .intro {
 
 .intro h1 {
   max-width: 450px;
-  line-height: 3rem;
+  font-size: 3.5rem;
   margin: 20px 0 10px 0;
 }
 
