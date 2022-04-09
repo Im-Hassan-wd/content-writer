@@ -163,13 +163,13 @@ a.active {
   font-size: 1.3rem;
   display: block;
   letter-spacing: 1px;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .article-snippet {
   margin-bottom: 10px;
   font-size: 1rem;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .article-category span {
