@@ -93,6 +93,7 @@ a.active {
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
+
 .hamburger {
   display: none;
   padding: 3px;
@@ -119,7 +120,7 @@ a.active {
 .copy-container {
   position: absolute;
   right: 20px;
-  transition: 0.4s ease;
+  transition: 0.5s ease;
   transform: translateY(-5px);
   opacity: 0;
   pointer-events: none;
@@ -150,7 +151,6 @@ a.active {
 
 .article {
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
-  padding: 15px;
   border-radius: 20px;
   background: #111;
 }
@@ -163,16 +163,19 @@ a.active {
   font-size: 1.3rem;
   display: block;
   letter-spacing: 1px;
+  padding: 15px;
 }
 
 .article-snippet {
   margin-bottom: 10px;
   font-size: 1rem;
+  padding: 15px;
 }
 
 .article-category span {
   font-weight: bold;
   color: #d19b5a;
+  padding: 15px;
 }
 
 .article img {
