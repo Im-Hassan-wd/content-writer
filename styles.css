@@ -300,13 +300,21 @@ footer {
   object-fit: cover;
 }
 
-.avatar {
-  width: 30px;
-  height: 30px;
+.details, .author div, .date div, .category div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.author p{
+  margin-left: 10px;
 }
 
 .avatar img {
-  width: 100%;
+  width: 25px;
+  border-radius: 50%;
+  height: 25px;
 }
 
 
