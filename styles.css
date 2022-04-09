@@ -307,6 +307,10 @@ footer {
   margin: 5px 0;
 }
 
+.details p {
+  font-size: 14px;
+}
+
 .author p{
   margin-left: 10px;
 }
