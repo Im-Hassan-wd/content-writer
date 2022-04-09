@@ -152,13 +152,13 @@ a.active {
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
   padding: 15px;
   border-radius: 20px;
-  background: #222;
+  background: #eee;
 }
 
 .article-title {
   font-weight: 400;
   margin: 10px 0;
-  color: #222;
+  color: #fafafa;
   font-weight: 700;
   font-size: 1.3rem;
   display: block;
