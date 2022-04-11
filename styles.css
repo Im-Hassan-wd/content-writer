@@ -36,7 +36,6 @@ nav ul {
 
 nav li {
   list-style: none;
-  width: 100%;
 }
 
 nav .logo {
@@ -262,6 +261,7 @@ footer {
   nav li {
     padding: 10px 15px;
     border-bottom: 1px solid #333;
+    width: 100%;
   }
   nav ul.active {
     transition: 0.4s ease;
