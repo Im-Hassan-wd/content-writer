@@ -301,6 +301,11 @@ footer {
 
 #article .body {
   margin-bottom: 20px;
+  text-align: justify;
+}
+
+.body p {
+  line-height: 1.3;
 }
 
 .main-image{
