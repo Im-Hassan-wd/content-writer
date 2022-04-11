@@ -230,8 +230,14 @@ footer {
 @media (max-width: 700px) {
   .hamburger {
     display: block;
+  }
+  .hamburger.active {
     position: fixed;
-    right: 50px;
+    right: 30px;
+    background: #000;
+  }
+  .hamburger, nav .logo {
+    z-index: 1;
   }
   nav {
     width: 100%;

@@ -26,4 +26,5 @@ function removeContainer(){
 
 function toggleNav() {
   nav.classList.toggle('active');
+  hamburger.classList.toggle('active');
 }
