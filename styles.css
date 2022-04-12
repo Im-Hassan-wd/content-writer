@@ -314,10 +314,20 @@ footer {
   font-weight: bold;
 }
 
-.body ul {
-  list-style-type: "→  ";
-  margin-left: 50px;
+
+
+
+
+
+ul {
+  list-style-type: "→ ";
 }
+
+
+
+
+
+
 
 .body li {
   margin: 5px 0;
