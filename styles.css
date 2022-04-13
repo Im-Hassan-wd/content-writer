@@ -295,6 +295,7 @@ footer {
 
 #article h1 {
   margin-bottom: 20px;
+  text-transfrom: uppercase;
 }
 
 #article .body {
