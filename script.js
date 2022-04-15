@@ -7,27 +7,17 @@ const logo = document.querySelector('.logo')
 // event listerners
 copyContainer.addEventListener('transitionend', removeContainer);
 hamburger.addEventListener('click', toggleNav);
-
-
-
-
-
-text.addEventListener('click', () => copyText();
+copy.addEventListener('click', () => copyText();
 
 // functions 
 function copyText(){
   const el = document.createElement('textarea');
-  el.value = e.target.innerText;
+  el.value = origin;
   document.body.appendChild(el);
   el.select();
   document.execCommand('copy');
   document.body.removeChild(el);
 }
-
-
-
-
-
 
 function removeContainer(){
   copyContainer.classList.remove('active');
