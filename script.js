@@ -17,6 +17,8 @@ function copyText(){
   el.select();
   document.execCommand('copy');
   document.body.removeChild(el);
+  // popup animation
+  copyContainer.classList.add('active');
 }
 
 function removeContainer(){
