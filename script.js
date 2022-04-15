@@ -5,21 +5,29 @@ const hamburger = document.querySelector('.hamburger');
 const logo = document.querySelector('.logo')
 
 // event listerners
-copy.addEventListener('click', () => copyText());
 copyContainer.addEventListener('transitionend', removeContainer);
-hamburger.addEventListener('click', toggleNav)
+hamburger.addEventListener('click', toggleNav);
+
+
+
+
+
+text.addEventListener('click', () => copyText();
 
 // functions 
 function copyText(){
   const el = document.createElement('textarea');
-  el.value = origin;
+  el.value = e.target.innerText;
   document.body.appendChild(el);
   el.select();
   document.execCommand('copy');
   document.body.removeChild(el);
-  // popup animation
-  copyContainer.classList.add('active');
 }
+
+
+
+
+
 
 function removeContainer(){
   copyContainer.classList.remove('active');
