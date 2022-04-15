@@ -5,9 +5,9 @@ const hamburger = document.querySelector('.hamburger');
 const logo = document.querySelector('.logo')
 
 // event listerners
+copy.addEventListener('click', () => copyText());
 copyContainer.addEventListener('transitionend', removeContainer);
-hamburger.addEventListener('click', toggleNav);
-copy.addEventListener('click', () => copyText();
+hamburger.addEventListener('click', toggleNav)
 
 // functions 
 function copyText(){
