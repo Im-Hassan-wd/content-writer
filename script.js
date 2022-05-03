@@ -9,7 +9,7 @@ copy.addEventListener('click', () => copyText());
 copyContainer.addEventListener('transitionend', removeContainer);
 hamburger.addEventListener('click', toggleNav)
 
-// functions 
+// functions and stuffs
 function copyText(){
   const el = document.createElement('textarea');
   el.value = origin;
