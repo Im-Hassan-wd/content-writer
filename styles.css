@@ -325,6 +325,10 @@ footer {
   margin-left: 40px;
 }
 
+.body ol li {
+  margin-bottom: 20px;
+}
+
 .body li {
   margin: 5px 0;
 }
