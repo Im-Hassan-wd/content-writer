@@ -317,7 +317,7 @@ footer {
 }
 
 .body ul {
-  list-style-type: "→ ";
+  list-style-type: "→  ";
   margin-left: 50px;
 }
 
@@ -325,7 +325,7 @@ footer {
   margin-left: 40px;
 }
 
-.body ol li {
+.body .ordered-list {
   margin-bottom: 30px;
 }
 
