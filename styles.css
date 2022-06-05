@@ -321,6 +321,10 @@ footer {
   margin-left: 50px;
 }
 
+.body ol {
+  margin-left: 40px;
+}
+
 .body li {
   margin: 5px 0;
 }
