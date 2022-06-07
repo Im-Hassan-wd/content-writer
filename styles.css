@@ -212,9 +212,13 @@ section > .intro {
   padding: 15px;
 }
 
-.article img {
+.article img, ol img {
   border-radius: 20px;
   width: 100%;
+}
+
+ol img {
+  height: 500px;
 }
 
 /* footer */
@@ -325,9 +329,15 @@ footer {
   margin-left: 40px;
 }
 
+/* ol img {
+  width: 500px;
+  object-fit: cover;
+} */
+
 .body .ordered-list {
   margin-bottom: 30px;
 }
+
 
 .body li {
   margin: 5px 0;
